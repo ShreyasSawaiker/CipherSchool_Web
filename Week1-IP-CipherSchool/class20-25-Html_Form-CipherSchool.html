@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="ThanYou.html" method="post"> <!-- method = "get" puts data in the url-->
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="userame" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="password" required>
+        <br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="your email" required>
+        <br>
+        <p>Select Gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="Other">
+        <br><br>
+        <label for="Age">Selcet Your Age Group</label>
+        <select name="age values" id="Age">
+            <option value="5-10">5-10</option>
+            <option value="11-20">11-20</option>
+            <option value="21-50">21-50</option>
+        </select>
+        <br><br>
+        Date: <input type="date">
+        <br><br>
+        File: <input type="file">
+        <br><br>
+        <input type="submit" value="Sign In">
+        <br><br>
+        <p>Comment Below:</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Type Here:"></textarea>
+        <br>
+        <label for="pickcolor">Pick Colour:</label>
+        <input type="color" id="pickcolor">
+    </form>
+</body>
+</html>

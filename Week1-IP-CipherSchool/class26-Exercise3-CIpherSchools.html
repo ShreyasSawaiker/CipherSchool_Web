@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP FORMS</title>
+</head>
+<body>
+    <h1>Fill The Details:</h1>
+    <form action="ThanYou.html" method="post"> <!-- method = "get" puts data in the url-->
+        <input type="text" id="username" placeholder="Your Name" required>
+        <br><br>
+        <input type="password" id="password" placeholder="Password" required>
+        <br><br>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <br>
+        <p>Select Gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="Other">
+        <br><br>
+        <label for="Age">Selcet Your Age Group</label>
+        <select name="age values" id="Age" required>
+            <option value="5-10">5-10</option>
+            <option value="11-20">11-20</option>
+            <option value="21-50">21-50</option>
+        </select>
+        <br><br>
+        <label for="country">Country:</label>
+        <select name="country" id="country" required>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select>
+        <br><br>
+        Date: <input type="date">
+        <br><br>
+        <p>Write About Yourself:</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Be Cool"></textarea>
+        <br><br>
+        <input type="submit" value="Sign In">
+    </form>
+</body>
+</html>
